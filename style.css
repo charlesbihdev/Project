@@ -1,0 +1,115 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    background-color: honeydew;
+}
+
+.navbar{
+    background-color: lightskyblue;
+    color: brown;
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+
+    
+}
+
+.navbar ul li {
+    padding: 15px;
+    font-size: large;
+    border-bottom: 2px solid rgb(51, 106, 223) ;
+    text-align: center;
+    margin-bottom: auto;
+    transition: background-color 0.9s;
+    text-decoration: none;
+} 
+
+    .navbar  a:active{
+        color : aqua;
+        background-color: indianred;
+    }
+    
+
+.navbar ul li:hover{
+    background-color: darkblue;
+}
+
+@media screen and (min-width: 700px) {
+
+.navbar ul{ text-align: right;
+            }
+
+            .navbar ul li {
+                display: inline-block;
+                border-left: 2px solid black;
+                border-bottom: 0px;
+                text-align: left;
+            }
+        }        
+
+.navibar {
+    background-color: blueviolet;
+}
+ .navibar ul{
+     list-style-type: none;
+     margin: 0%;
+     padding: 0%;
+ }
+
+ .navibar ul li{
+    padding: 1rem;
+
+ }
+
+ .navibar ul li:hover{
+     background-color: brown;
+
+    
+ }
+
+ .center-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%; }
+
+    .history {
+margin-top: 0%;
+margin-bottom: 0%;
+text-align: left;
+background-color: hotpink;
+    }
+
+    .footer{
+        background-color: lemonchiffon;
+        text-align: center;
+        border: 3px solid lightskyblue;
+        font-size: larger;
+        color: blue;
+    }
+
+    /* services style code */
+
+    .listsubject ul li {
+        line-height: 50px;
+        text-align: justify;
+        color: olive;
+        font-size: x-large;
+        
+    }
+
+    /* about style code */
+    
+    #background {
+        background-image: url('back.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: left top;
+
+    }
